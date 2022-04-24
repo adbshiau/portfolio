@@ -12,6 +12,7 @@ body {
   
 main {
     flex: 1 0 auto;
+    color: #01579b;
 }
   
 footer.page-footer {
@@ -53,12 +54,13 @@ footer.page-footer {
 
 .labels {
     font-family: 'Roboto', sans-serif;
-    color:cadetblue;
+    /* color:#424242; */
 }
 
 #about-me {
     font-family: 'Roboto', sans-serif;
     display: grid;
+    font-weight: bold;
 }
 
 #profile-pic {
@@ -69,6 +71,7 @@ footer.page-footer {
 
 .section-title {
     font-family: 'Mali', cursive;
+    /* color: #424242; */
 }
 
 .skills-and-tools {
@@ -86,4 +89,15 @@ footer.page-footer {
 .recent-projects {
     display: flex;
     flex-wrap: wrap;
+}
+
+#project-link {
+    color:#01579b;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border-color: blue;
 }

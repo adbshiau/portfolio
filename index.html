@@ -86,13 +86,13 @@
                 <div class="col s12 m7">
                   <div class="card">
                     <div class="card-image">
-                      <img src="./css/public/images/blackjack.png">
+                      <img src="./css/public/images/blackjack.png" alt="Blackjack Game">
                     </div>
                     <div class="card-content">
                       <p id="project-description">A web browser game built with JavaScript, HTML, and CSS. Deployed on Github Pages.</p>
                     </div>
                     <div class="card-action">
-                      <a href="https://adbshiau.github.io/blackjack/">Blackjack</a>
+                      <a id="project-link" href="https://adbshiau.github.io/blackjack/">Blackjack</a>
                     </div>
                   </div>
                 </div>
@@ -101,13 +101,13 @@
                 <div class="col s12 m7">
                   <div class="card">
                     <div class="card-image">
-                      <img src="./css/public/images/plant_diaries.png">
+                      <img src="./css/public/images/plant_diaries.png" alt="Plant Diaries App">
                     </div>
                     <div class="card-content">
                       <p id="project-description">This plant journal is essentially a log for keeping track of your plants and their care routine. You can also use it to make notes about new and exciting growth, and even add and update images.</p>
                     </div>
                     <div class="card-action">
-                      <a href="https://plant-diaries.herokuapp.com/">Plant Diaries</a>
+                      <a id="project-link" href="https://plant-diaries.herokuapp.com/">Plant Diaries</a>
                     </div>
                   </div>
                 </div>
@@ -126,7 +126,7 @@
                   <p id="project-description">Show off your coral collection!</p>
                 </div>
                 <div class="card-action">
-                  <a href="#">The Frag Tank</a>
+                  <a id="project-link" href="#">The Frag Tank</a>
                 </div>
               </div>
             </div>
@@ -135,12 +135,28 @@
         <h6 id="say-hello"class="labels">SAY HELLO</h6>
         <div>
             <h5 class="section-title">I'd love to hear from you!</h5>
-            <ul>
-                <li>Email: angelicashiau@gmail.com</li>
+
+            <form name="contact" netlify>
+                <p>
+                    <label>Name:<input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Email:<input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Message:<input type="text" name="message" /></label>
+                </p>
+                <p>
+                    <button class="btn waves-effect waves-light #0277bd light-blue darken-3" type="submit">Send</button>
+                </p>
+            </form>
+            <h5 class="section-title">You can find me on these online spaces too!</h5>
+            <ul class="socials">
+                <li><a href = "mailto: angelicashiau@gmail.com">Email</a></li>
                 <li><a href="https://twitter.com/ayabartolome">Twitter</a></li>
                 <li><a href="https://www.linkedin.com/in/adbshiau/">LinkedIn</a></li>
                 <li><a href="https://github.com/adbshiau">Github</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="./Shiau Resume.pdf">Resume</a></li>
             </ul>
         </div>
 
