@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1586788224331-947f68671cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Mali', cursive;
+    color: white;
+}
+  
+main {
+    flex: 1 0 auto;
+}
+  
+footer.page-footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.typing {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+  .typing-effect {
+    text-align: center;
+    width: 19ch;
+    animation: typing 2s steps(18), effect .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Mali', cursive;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes effect {
+    50% {
+      border-color: transparent
+    }
+}
+
+.labels {
+    font-family: 'Roboto', sans-serif;
+    color:cadetblue;
+}
+
+#about-me {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.section-title {
+    font-family: 'Mali', cursive;
+}
+
+.skills-and-tools {
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects {
+    font-family: 'Roboto', sans-serif;
+}
+
+#project-description {
+    color: black;
+}
+
+.recent-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
