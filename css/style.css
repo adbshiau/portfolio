@@ -29,7 +29,7 @@ footer.page-footer {
 
   .typing-effect {
     text-align: center;
-    width: 19ch;
+    width: 20ch;
     animation: typing 2s steps(18), effect .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
