@@ -29,7 +29,7 @@ footer.page-footer {
     flex-wrap: wrap;
 }
 
-  .typing-effect {
+.typing-effect {
     text-align: center;
     width: 20ch;
     animation: typing 2s steps(18), effect .5s step-end infinite alternate;
@@ -76,6 +76,12 @@ footer.page-footer {
 
 .skills-and-tools {
     font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+    flex: 1 1 25%;
 }
 
 .projects {
@@ -100,4 +106,33 @@ footer.page-footer {
     justify-content: space-between;
     color: black;
     border-color: blue;
+}
+
+.css-dynamic-sidebar {
+    overflow: hidden;
+    position: relative;
+    height: 15em;
+    max-width: 15em;
+    margin: auto;
+}
+
+/* nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 100%;
+    padding: 1em;
+    background-color: #0277bd;
+    transform: translateX(1em);
+    transition: 0.2s transform;
+}
+ 
+nav:hover,
+nav:focus-within {
+    transform: translateX(100%);
+} */
+
+.tools-logo {
+    width: 50px;
+    height: 50px;
 }
